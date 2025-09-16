@@ -1,4 +1,4 @@
-import AboutUs from "../component/Aboutus";
+import AboutUs from "@/component/Aboutus";
 
 
 export default function AboutUsPage() {

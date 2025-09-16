@@ -1,10 +1,11 @@
-import Projects from "../component/project";
+import Projects from "@/component/Project";
+
 export default function ProjectPage() {
   return (
     <>
       <section className=" section ">
         <div className="container">
-          <Projects/>
+          <Projects />
         </div>
       </section>
     </>
