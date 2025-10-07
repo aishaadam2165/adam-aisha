@@ -36,7 +36,7 @@ export default function SkillPage() {
             ))}
           </div>
         </div>
-        <div className="col-4 bg-secondary">
+        <div className="col-lg-4 col-12 bg-secondary">
           <img src="/hr.jpg" className="img-fluid" />
 
         </div>
@@ -52,7 +52,7 @@ export default function SkillPage() {
             ))}
           </div>
         </div>
-        <div className="col-4 bg-secondary">
+        <div className="col-lg-4 col-12 bg-secondary">
           <img src="/ring.jpg" className="img-fluid" />
 
         </div>
