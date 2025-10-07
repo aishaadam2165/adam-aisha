@@ -5,14 +5,14 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-md shadow-sm py-1">
       <div className="container">
         <img
-          src="/a.jpg"
+          src="/mlo.jpg"
           className=" rounded-2"
-          width={30}
+          width={35}
           height={30}
           alt=""
         />
         <a href="/" className="navbar-brand fw-bolder text-uppercase">
-          Designer
+          A.B FASHION
         </a>
         <button
           className="navbar-toggler shadow-none"
@@ -33,22 +33,22 @@ export default function Navbar() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <a href="/about" className="nav-link fw-bold">
-                About Us
+                About
               </a>
             </li>
             <li className="nav-item">
-              <a href="skills" className="nav-link fw-bold">
-                skills
+              <a href="/skills" className="nav-link fw-bold">
+                Skills
               </a>
             </li>
             <li className="nav-item">
               <a href="/projects" className="nav-link fw-bold">
-                project
+                Project
               </a>
             </li>
 
             <li className="nav-item">
-              <a href="" className="nav-link fw-bold">
+              <a href="/contact" className="nav-link fw-bold">
                 Contact
               </a>
             </li>

@@ -1,3 +1,4 @@
+import Navbar from "@/component/Navbar";
 import LandingPage from "../component/Landing";
 
 

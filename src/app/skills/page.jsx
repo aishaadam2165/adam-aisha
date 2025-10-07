@@ -1,14 +1,15 @@
-export default function Skills(){
-    return(
-       
+import Skill from "@/component/Skills";
 
-         <div className="sectionTitle d-flex flex-row text-light">
-        <h3>02.</h3>
-        <h4>Skills</h4>
-      </div>
-      
-        
-        
-        
-    )
+
+export default function SkillList({ skills }) {
+  return (
+    <>     
+     <section className=" section ">
+            <div className="container">
+              <Skill />
+            </div>
+          </section>
+
+    </>
+  );
 }

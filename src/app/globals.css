@@ -1,9 +1,10 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-
 :root {
-  --bgColor: #0b0c27;
-  --lightColor: #fafafa;
+  --bg: #230e49;
+  --bgColor: #272627;
+  --light: #ec9d0a;
+  --lightColor: #f3eeee;
   --hoverColor: #75757a;
   --softColor: #dfd9ff;
   --textColor: #00ffff;
@@ -20,7 +21,8 @@
 
 .navbar {
   padding: 0;
-  background: var(--bgColor)
+  background: var(--lightColor)
+  
 }
 
 .navbar ul {
@@ -44,16 +46,17 @@
   font-family: "Nunito", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: var(--lightColor);
+  color: var(--bgcolor);
   white-space: nowrap;
   transition: 0.3s;
+  
 }
 
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: var(--softColor);
+  color: var(--light);
 }
 
 /*--------------------------------------------------------------
@@ -83,7 +86,7 @@
 
 .mainPage .king h1 {
   margin: 0;
-  font-size: 100px;
+  font-size: 45px;
   font-weight: 900;
   color: var(--lightColor);
 }
@@ -91,8 +94,8 @@
 .mainPage .king h2 {
   color: var(--lightColor);
   margin: 15px 0 0 0;
-  font-size: 26px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
 }
 .mainPage .uper .img-head {
   color: var(--lightColor);
@@ -189,7 +192,7 @@
 .sectionTitle h3{
   font-weight: 900px;
   font-size: 25px;
-  color: var(--textColor);
+  color: var(--light);
 
 }
 .sectionTitle h4{
@@ -212,3 +215,30 @@
 
   font-size: 26px;
 }
+.about p{
+  font-size: 18px;
+  
+}
+.card {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-color: #ffc400;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card-content {
+  padding: 16px;
+}
+
