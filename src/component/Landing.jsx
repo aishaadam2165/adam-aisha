@@ -19,7 +19,7 @@ export default function LandingPage() {
             <div data-aos="fade-in" data-aos-delay="600" className="d-flex  flex-row gap-4">
               <div className="text-center text-lg-start mt-4">
                 <a
-                  href="#about"
+                  href="/projects"
                   className="btn btn-lg text-uppercase bg-warning rounded-5 scrollto d-inline-flex align-items-center justify-content-center align-self-center"
                 >
                   View my Work
@@ -28,7 +28,7 @@ export default function LandingPage() {
               </div>
               <div className="text-center text-lg-start mt-4">
                 <a
-                  href="#about"
+                  href="/intouch"
                   className="btn btn-lg text-uppercase rounded-5 btn-outline-warning scrollto d-inline-flex align-items-center justify-content-center align-self-center"
                 >
                   get in touch
