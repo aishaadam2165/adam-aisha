@@ -40,7 +40,15 @@ export async function GET() {
 export async function PUT(request) {
   try {
     await connectDB();
-    const { id, name, email, phone, message } = await request.json();
+    const body = await request.json();
+    const { id, name, email, phone, message } = body;
+
+    if (!id) {
+      return NextResponse.json(
+        { success: false, message: "Contact ID is required" },
+        { status: 400 }
+      );
+    }
 
     const updatedContact = await Contact.findByIdAndUpdate(
       id,
@@ -68,6 +76,7 @@ export async function PUT(request) {
     );
   }
 }
+
 
 // DELETE
 export async function DELETE(request) {

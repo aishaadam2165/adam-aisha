@@ -45,33 +45,39 @@ const InTouch = () => {
     }
   };
 
-  const handleUpdate = async (e) => {
-    e.preventDefault();
-    setIsLoading(true);
-    try {
-      const res = await fetch("/api/contact", {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(editContact),
-      });
-      const data = await res.json();
-      if (data.success) {
-        toast.success("Updated successfully!");
-        setContacts((prev) =>
-          prev.map((c) =>
-            c._id === editContact._id ? data.updatedContact : c
-          )
-        );
-        setEditContact(null);
-      } else {
-        toast.error(data.message);
-      }
-    } catch (error) {
-      toast.error("Error updating contact");
-    } finally {
-      setIsLoading(false);
+ const handleUpdate = async (e) => {
+  e.preventDefault();
+  setIsLoading(true);
+  try {
+    const res = await fetch("/api/contact", {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        id: editContact._id, // ✅ send ID as 'id'
+        name: editContact.name,
+        email: editContact.email,
+        phone: editContact.phone,
+        message: editContact.message,
+      }),
+    });
+
+    const data = await res.json();
+    if (data.success) {
+      toast.success("Updated successfully!");
+      setContacts((prev) =>
+        prev.map((c) => (c._id === editContact._id ? data.updatedContact : c))
+      );
+      setEditContact(null);
+    } else {
+      toast.error(data.message || "Update failed");
     }
-  };
+  } catch (error) {
+    toast.error("Error updating contact: " + error.message);
+  } finally {
+    setIsLoading(false);
+  }
+};
+
 
   return (
     <div className="container py-5">
