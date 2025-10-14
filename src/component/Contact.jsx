@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import toast from "react-hot-toast";
+import Link from "next/link";
 
 
 const ContactUs = () => {
@@ -76,20 +77,7 @@ const ContactUs = () => {
           </div>
         </div>
 
-        <div className="contact-right mt-5">
-          <form className="contact-form">
-            <input type="text" placeholder="Your Name" className="form-control mb-3" />
-            <input type="email" placeholder="Your Email" className="form-control mb-3" />
-            <textarea
-              placeholder="Your Message"
-              rows="5"
-              className="form-control mb-3"
-            ></textarea>
-            <button type="submit" className="btn btn-primary">
-              Send Message
-            </button>
-          </form>
-        </div>
+
 
       </div>
       
@@ -101,7 +89,7 @@ const ContactUs = () => {
           <div className="col-md-6 text-center mb-4 mb-md-0">
             {" "}
             <img
-              src="/1.jpg"
+              src="/mlo.jpg"
               alt="Contact illustration"
               className="img-fluid rounded"
             />{" "}
@@ -112,7 +100,7 @@ const ContactUs = () => {
             <h2 className="text-center text-warning mb-4">Contact Us</h2>{" "}
             <form onSubmit={handleSubmit} className="border rounded-2 p-2">
               {" "}
-              <div className="mb-3">
+              <div className="mb-3 text-light">
                 {" "}
                 <label className="form-label">Name</label>{" "}
                 <input
@@ -124,7 +112,7 @@ const ContactUs = () => {
                   required
                 />{" "}
               </div>
-              <div className="mb-3">
+              <div className="mb-3 text-light">
                 {" "}
                 <label className="form-label">Email</label>{" "}
                 <input
@@ -136,7 +124,7 @@ const ContactUs = () => {
                   required
                 />{" "}
               </div>
-              <div className="mb-3">
+              <div className="mb-3 text-light">
                 {" "}
                 <label className="form-label">Phone</label>{" "}
                 <input
@@ -148,7 +136,7 @@ const ContactUs = () => {
                   required
                 />{" "}
               </div>
-              <div className="mb-3">
+              <div className="mb-3 text-light">
                 {" "}
                 <label className="form-label">Message</label>{" "}
                 <textarea
@@ -167,7 +155,8 @@ const ContactUs = () => {
               >
                 
                 {isSubmitting ? "Sending..." : "Send Message"}{" "}
-              </button>{" "}
+              </button>
+              <Link href="/intouch" className="btn w-100 btn-outline-warning mt-3">View Contact</Link>
             </form>{" "}
           </div>{" "}
         </div>{" "}

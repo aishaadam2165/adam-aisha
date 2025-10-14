@@ -13,7 +13,7 @@ export default function SkillPage() {
         <div className="col-lg-8 col-12 p-2 p-lg-0">
           <h3 className="px-3">Artistic $ Visual Skills</h3>
           <div className="flex flex-wrap gap-3">
-            {["Skicthing $ and Illustration", "Trend  Awareness", "Color Theory", "Artistic Vision"].map(skill => (
+            {["Skicthing $ Illustration","Trend Awareness","Color Theory","Artistic Vision"].map(skill => (
               <span key={skill} className="bg-[#0a192f] px-3 py-1 rounded-lg">
                 {skill}
               </span>
@@ -29,7 +29,7 @@ export default function SkillPage() {
         <div className="col-lg-8 col-12 p-2 p-lg-0">
           <h3 className="px-3"> Materials $ Technical Skills</h3>
           <div className="flex flex-wrap gap-3">
-            {["Material Knowledge", "Contruction $ and Technical Skills", "Understing of Form"].map(skill => (
+            {["Material Knowledge","Contruction $ Technical Skills","Understing of Form"].map(skill => (
               <span key={skill} className="bg-[#0a192f] px-3 py-1 rounded-lg">
                 {skill}
               </span>
@@ -43,9 +43,9 @@ export default function SkillPage() {
       </div>
       <div className="row justify-content-center text-lg-start align-items-center bg-secondary rounded-1 mb-4">
         <div className="col-lg-8 col-12 p-2 p-lg-0">
-          <h3 className="px-3"> Conceptual $ and Strategical Skills</h3>
+          <h3 className="px-3"> Conceptual $ Strategical Skills</h3>
           <div className="flex flex-wrap gap-3">
-            {["Problem Solving", "Innovation", "Attention to Details"].map(skill => (
+            {["Problem Solving","Innovation","Attention to Details"].map(skill => (
               <span key={skill} className="bg-[#0a192f] px-3 py-1 rounded-lg">
                 {skill}
               </span>
