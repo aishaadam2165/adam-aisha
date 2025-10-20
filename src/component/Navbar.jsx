@@ -5,12 +5,12 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-md shadow-sm py-1">
       <div className="container">
         <img
-          src="/mlo.jpg"
-          className=" rounded-2"
-          width={35}
-          height={30}
-          alt=""
-        />
+        src="/mlo.jpg"
+       className="rounded-2 logo-bounce"
+        width={35}
+        height={30}
+        alt="logo"
+      />
         <a href="/" className="navbar-brand fw-bolder text-uppercase">
           A.B FASHION
         </a>

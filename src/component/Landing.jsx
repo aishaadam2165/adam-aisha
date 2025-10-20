@@ -44,7 +44,7 @@ export default function LandingPage() {
             data-aos-delay="200"
           >
             <h4 className=" d-lg-none img-head">ayshu</h4>
-            <img src="/mlo.jpg" className="img-fluid" alt="img" />
+            <img src="/mlo.jpg" className="img-fluid " alt="img" />
           </div>
         </div>
       </div>

@@ -52,6 +52,20 @@
   
 }
 
+.logo-bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
@@ -100,6 +114,7 @@
 .mainPage .uper .img-head {
   color: var(--lightColor);
   font-size: 26px;
+  
 }
 .mainPage .king p{
   color: var(--lightColor);
