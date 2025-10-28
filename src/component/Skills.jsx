@@ -21,7 +21,7 @@ export default function SkillPage() {
           </div>
         </div>
         <div className="col-lg-4 col-12 bg-secondary">
-          <img src="/gold.png" className="img-fluid" />
+          <img src="/artistic.png" className="img-fluid" />
 
         </div>
       </div>
@@ -37,7 +37,7 @@ export default function SkillPage() {
           </div>
         </div>
         <div className="col-lg-4 col-12 bg-secondary">
-          <img src="/hr.jpg" className="img-fluid" />
+          <img src="/materials.png" className="img-fluid" />
 
         </div>
       </div>
@@ -53,7 +53,7 @@ export default function SkillPage() {
           </div>
         </div>
         <div className="col-lg-4 col-12 bg-secondary">
-          <img src="/ring.jpg" className="img-fluid" />
+          <img src="/consep.png" className="img-fluid" />
 
         </div>
       </div>

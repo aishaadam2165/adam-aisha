@@ -8,7 +8,34 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      image: "/1705776190756.jpg",
+      image: "/040.jpg",
+      title: "Elegance is not just worn, it is expressed.",
+      shortDesc:
+        "Every pattern is more than fashion—it is a visual language...",
+      fullDesc:
+        "Every pattern is more than fashion—it is a visual language, telling stories of culture, tradition, and beauty through design. This project captures the timeless connection between art and identity in every detail.",
+    },
+    {
+      id: 1,
+      image: "/121.jpg",
+      title: "Elegance is not just worn, it is expressed.",
+      shortDesc:
+        "Every pattern is more than fashion—it is a visual language...",
+      fullDesc:
+        "Every pattern is more than fashion—it is a visual language, telling stories of culture, tradition, and beauty through design. This project captures the timeless connection between art and identity in every detail.",
+    },
+    {
+      id: 1,
+      image: "/41.jpg",
+      title: "Elegance is not just worn, it is expressed.",
+      shortDesc:
+        "Every pattern is more than fashion—it is a visual language...",
+      fullDesc:
+        "Every pattern is more than fashion—it is a visual language, telling stories of culture, tradition, and beauty through design. This project captures the timeless connection between art and identity in every detail.",
+    },
+    {
+      id: 1,
+      image: "/17.jpg",
       title: "Elegance is not just worn, it is expressed.",
       shortDesc:
         "Every pattern is more than fashion—it is a visual language...",
@@ -25,9 +52,37 @@ export default function Projects() {
     },
     {
       id: 3,
-      image: "/1706863247742.jpg",
+      image: "/29.jpg",
       title: "Every pattern tells a story, every fabric carries a voice.",
-      shortDesc: "Through colors, shapes, and textures, this work highlights...",
+      shortDesc:
+        "Through colors, shapes, and textures, this work highlights...",
+      fullDesc:
+        "Through colors, shapes, and textures, this work highlights the timeless bond between art and identity, transforming fabrics into expressions of emotion and heritage.",
+    },
+    {
+      id: 3,
+      image: "/05.jpg",
+      title: "Every pattern tells a story, every fabric carries a voice.",
+      shortDesc:
+        "Through colors, shapes, and textures, this work highlights...",
+      fullDesc:
+        "Through colors, shapes, and textures, this work highlights the timeless bond between art and identity, transforming fabrics into expressions of emotion and heritage.",
+    },
+    {
+      id: 3,
+      image: "/19.jpg",
+      title: "Every pattern tells a story, every fabric carries a voice.",
+      shortDesc:
+        "Through colors, shapes, and textures, this work highlights...",
+      fullDesc:
+        "Through colors, shapes, and textures, this work highlights the timeless bond between art and identity, transforming fabrics into expressions of emotion and heritage.",
+    },
+    {
+      id: 3,
+      image: "/42.jpg",
+      title: "Every pattern tells a story, every fabric carries a voice.",
+      shortDesc:
+        "Through colors, shapes, and textures, this work highlights...",
       fullDesc:
         "Through colors, shapes, and textures, this work highlights the timeless bond between art and identity, transforming fabrics into expressions of emotion and heritage.",
     },
@@ -46,6 +101,30 @@ export default function Projects() {
       shortDesc: "Every jewelry tells a story of grace and timeless beauty...",
       fullDesc:
         "Every jewelry tells a story of grace, strength, and timeless beauty. This design embodies sophistication while honoring cultural craftsmanship passed through generations.",
+    },
+    {
+      id: 6,
+      image: "/gold.png",
+      title: "Leaf-inspired gold design.",
+      shortDesc: "Nature's elegance captured in gold...",
+      fullDesc:
+        "Nature's elegance captured in gold — a symbol of heritage and style. Each curve and detail reflects the inspiration drawn from the organic beauty of leaves and natural patterns.",
+    },
+    {
+      id: 6,
+      image: "/4.jpeg",
+      title: "Leaf-inspired gold design.",
+      shortDesc: "Nature's elegance captured in gold...",
+      fullDesc:
+        "Nature's elegance captured in gold — a symbol of heritage and style. Each curve and detail reflects the inspiration drawn from the organic beauty of leaves and natural patterns.",
+    },
+    {
+      id: 6,
+      image: "/111.jpeg",
+      title: "Leaf-inspired gold design.",
+      shortDesc: "Nature's elegance captured in gold...",
+      fullDesc:
+        "Nature's elegance captured in gold — a symbol of heritage and style. Each curve and detail reflects the inspiration drawn from the organic beauty of leaves and natural patterns.",
     },
     {
       id: 6,
@@ -80,7 +159,7 @@ export default function Projects() {
                   className="btn btn-outline-warning w-100"
                   onClick={() => setSelectedProject(project)}
                 >
-                  View Details
+                  More Details
                 </button>
               </div>
             </div>

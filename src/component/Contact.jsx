@@ -91,7 +91,7 @@ const ContactUs = () => {
             <img
               src="/mlo.jpg"
               alt="Contact illustration"
-              className="img-fluid rounded"
+              className="img-fluid rounded-5"
             />{" "}
           </div>
           {/* Right: Form */}{" "}

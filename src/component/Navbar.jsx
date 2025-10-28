@@ -12,7 +12,7 @@ export default function Navbar() {
         alt="logo"
       />
         <a href="/" className="navbar-brand fw-bolder text-uppercase">
-          A.B FASHION
+          FASHION HOUSE
         </a>
         <button
           className="navbar-toggler shadow-none"
