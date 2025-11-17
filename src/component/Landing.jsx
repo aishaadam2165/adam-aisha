@@ -39,7 +39,6 @@ export default function LandingPage() {
               </div>
             </div>
           </div>
-
           <div
             className="col-lg-6 hero-img uper order-lg-1 order-1"
             data-aos="zoom-out"
